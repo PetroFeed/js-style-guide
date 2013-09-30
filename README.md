@@ -1296,7 +1296,7 @@
 
     ...
 
-    function updateListing(ev, options){
+    function updateListing( ev, options ) {
       // do something with options.id and options.name
     }
 
@@ -1307,11 +1307,11 @@
 
     ```js
     // good
-    $(this).trigger('listingUpdated', { listingId : listing.id });
+    $(this).trigger('listingUpdated', listing.id, listing.name, options);
 
     ...
     
-    function updateListing(ev, listingId, listingName, options){
+    function updateListing( ev, listingId, listingName, options ) {
       // do something with listingId and listingName
     }
 
@@ -1349,7 +1349,7 @@
 
       var previousFancyInput = global.FancyInput;
 
-      function FancyInput(options) {
+      function FancyInput( options ) {
         this.options = options || {};
       }
 
