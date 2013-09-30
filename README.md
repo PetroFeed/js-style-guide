@@ -824,7 +824,7 @@
 
     ```javascript
     // bad
-    var name = 'Commander Hadfield';           
+    var name = 'Commander Hadfield';∙∙∙∙
     ```
 
     ```javascript
@@ -1362,7 +1362,7 @@
     }(this);
     ```
   - Our own modules should use prototypical style. Others should follow convention of the technology chosen (ie. Backbone, jQuery, etc.)
-  - Abstract 3rd party modules under 'Tools' so that we can hot-swap them easier if we would like. (ie. Underscore, templating, moment, etc.)
+  - Abstract common 3rd party modules under 'Tools' so that we can hot-swap them easier if we would like. (ie. Underscore, templating, moment, etc.)
 
     **[[⬆]](#TOC)**
 
