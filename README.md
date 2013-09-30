@@ -311,7 +311,6 @@
     });
 
     // good
-    
     function mySuccessFn( xhr, data ) {
       // do something
     }
@@ -634,7 +633,7 @@
 
   - For more information see [Truth Equality and JavaScript](http://javascriptweblog.wordpress.com/2011/02/07/truth-equality-and-javascript/#more-2108) by Angus Croll
 
-  - Multi-line conditionals are **BAD**. It's a good excuse to use a function or series of functions. If however, they are necessary they should be aligned nicely.
+  - Multi-line conditionals are **BAD**. They are a good excuse to use a functions or series of functions instead. If however, they are necessary, they should be aligned nicely.
 
     ```javascript
     // bad
